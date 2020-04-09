@@ -1,4 +1,8 @@
-# client
+# ToDo Vue Client 
+
+ToDo Client written with:
+- Vue.js
+- Bootstrap
 
 ## Project setup
 ```
@@ -20,5 +24,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Server
+Server is written in Node.js & MongoDB and you can check it out [here](https://github.com/FiXiLiX/express-todo-server)

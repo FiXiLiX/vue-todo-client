@@ -1,0 +1,40 @@
+body { 
+    background: url(background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: 1fr;
+    max-width: 1400px;
+}
+.card {
+    margin: 1em;
+    padding: 2em;
+    padding-bottom: 2em;
+    box-shadow: 5px 5px 5px #434040;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1em;
+}
+
+nav.card {
+    padding: 1em;
+    letter-spacing: 1px;
+}
+
+nav > ul > li {
+    padding-left: 0.4em;
+}
+
+@media (max-width: 800px) {
+    .card-container { grid-template-columns: repeat(2, auto); }
+}
+
+@media (max-width: 400px) {
+    .card-container { grid-template-columns: repeat(1, auto); }
+}
